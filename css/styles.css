@@ -1,0 +1,159 @@
+/*****************************TAG SELECTORS *********************/
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  /*En terminos de porcentaje 100% equivale a 16 pixeles
+    16px = 100% = 1em */
+  font-size: 5.65rem;
+  font-family: 'Sacramento', cursive;
+  /*line-height: 2;*/
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0 auto auto auto;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: dotted none none;
+  border-width: 5px;
+  height: 0px;
+  width: 4%;
+  margin: 80px auto;
+}
+p{
+    line-height: 2;
+}
+
+/*********** CLASS SELECTORS *********************************/
+/* Agregando el en el TAG la sintaxis class y asignando un valor
+puedes separar las propiedades que le das al elemento */
+.top-container {
+  background-color: #DFEEEA;
+  position: relative;
+  padding: 50px 50px 0 50px; ;
+}
+
+.middle-container {
+  padding: 50px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px;
+  color:#EAF6F6;
+}
+
+.top-cloud {
+  /* posicionar la imagen*/
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 250px;
+}
+
+.principal-img {
+  width: 200px;
+  height: 200px;
+}
+
+.profile-p{
+width: 50%;
+margin: auto;
+padding: auto;
+color: #40514E;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  margin-bottom: 30px;
+  /*Overflow lo use para alinear la imagen y contenerla dentro del parrafo*/
+  overflow: auto;
+}
+
+.skill-computer-img {
+  width: 25%;
+  margin-right: 30px;
+  /*float lo use para dejar la imagen como "flotando" y que se alinie a la izquierda*/
+  float: left;
+}
+
+.skill-chillies-img {
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+
+.skills-h3 {
+  text-align: left;
+}
+
+/*
+.skills-chillies-p{
+  text-align: left;
+  clear: right;
+}*/
+
+.btn {
+  background: #2fe091;
+  background-image: -webkit-linear-gradient(top, #2fe091, #23b8b1);
+  background-image: -moz-linear-gradient(top, #2fe091, #23b8b1);
+  background-image: -ms-linear-gradient(top, #2fe091, #23b8b1);
+  background-image: -o-linear-gradient(top, #2fe091, #23b8b1);
+  background-image: linear-gradient(to bottom, #2fe091, #23b8b1);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.footer-link{
+  position: relative;
+  padding: 50px;
+}
